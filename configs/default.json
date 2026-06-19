@@ -25,7 +25,6 @@
     "orientation_input": "rotation_vector_rad"
   },
   "sample_defaults": {
-    "source_trajectory_id": "traj_unknown",
     "language_instruction": "夹取桌面上的目标物体",
     "object_type": "unknown",
     "arm_model": "UR7e",

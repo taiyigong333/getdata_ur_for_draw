@@ -34,5 +34,5 @@ docs/
 ## 待现场确认
 
 - `configs/default.json` 中的 `robot.rtde_host` 是否为真实机械臂 IP。
-- `sample_defaults.language_instruction`、`object_type`、`source_trajectory_id` 是否按每批采集任务创建独立 config。
+- `sample_defaults.language_instruction`、`object_type` 是否按每批采集任务创建独立 config。
 - 现场 RealSense 分辨率和帧率是否稳定支持 `1280x720@30`。

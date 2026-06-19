@@ -22,7 +22,6 @@
     "type": "mock"
   },
   "sample_defaults": {
-    "source_trajectory_id": "traj_mock",
     "language_instruction": "夹取桌面上的方形白色塑料工件",
     "object_type": "方形塑料工件",
     "arm_model": "UR7e",

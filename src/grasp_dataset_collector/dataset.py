@@ -104,7 +104,6 @@ class DatasetWriter:
 
         annotation = {
             "sample_id": session.sample_id,
-            "source_trajectory_id": self.sample_defaults.get("source_trajectory_id", "traj_unknown"),
             "language_instruction": self.sample_defaults.get("language_instruction", ""),
             "image_paths": {
                 "before": session.before_path,

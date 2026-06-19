@@ -95,7 +95,6 @@ grasp_success_dataset/
 ```json
 {
   "sample_id": "sample_00001",
-  "source_trajectory_id": "traj_00052",
   "language_instruction": "夹取桌面上的方形白色塑料工件",
   "image_paths": {
     "before": "images/before.png",
