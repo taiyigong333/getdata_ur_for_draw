@@ -50,6 +50,8 @@ pip install -e .
 
 如果一次实验有不同任务、物体或语言指令，建议为每批实验单独保存一个 config。
 
+完整字段说明见 [docs/CONFIG.md](docs/CONFIG.md)。
+
 ## 运行
 
 实机采集：
