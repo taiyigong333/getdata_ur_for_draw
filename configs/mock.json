@@ -1,0 +1,31 @@
+{
+  "dataset_root": "grasp_success_dataset",
+  "dataset_metadata": {
+    "dataset_name": "fixed_view_grasp_success_dataset",
+    "description": "固定视角下机械臂夹取成功数据集，包含夹取前后图像、成功时刻TCP位姿与自然语言指令",
+    "coordinate_system": {
+      "base_frame": "机械臂基坐标系",
+      "tcp_frame": "工具中心点坐标系",
+      "position_unit": "m",
+      "orientation_unit": "degree",
+      "orientation_type": "欧拉角(Rx-Ry-Rz, 固定轴XYZ)"
+    }
+  },
+  "camera": {
+    "type": "mock",
+    "width": 960,
+    "height": 540,
+    "fps": 30,
+    "preview_window": "grasp dataset collector mock"
+  },
+  "robot": {
+    "type": "mock"
+  },
+  "sample_defaults": {
+    "source_trajectory_id": "traj_mock",
+    "language_instruction": "夹取桌面上的方形白色塑料工件",
+    "object_type": "方形塑料工件",
+    "arm_model": "UR7e",
+    "tcp_set": [0.0, 0.0, 0.15]
+  }
+}

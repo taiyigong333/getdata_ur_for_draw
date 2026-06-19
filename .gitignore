@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# 采集到的数据通常体积较大，默认不纳入代码仓库。
+grasp_success_dataset/
+
+# 本地运行产物
+*.log
