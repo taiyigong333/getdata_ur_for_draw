@@ -1,0 +1,32 @@
+{
+  "dataset_root": "grasp_dataset",
+  "dataset_metadata": {
+    "dataset_name": "fixed_view_grasp_success_dataset",
+    "description": "固定视角下机械臂夹取数据集，包含夹取前后图像、成功时刻TCP位姿与自然语言指令",
+    "coordinate_system": {
+      "base_frame": "机械臂基座坐标系",
+      "tcp_frame": "工具中心点坐标系",
+      "position_unit": "m",
+      "orientation_unit": "rad",
+      "orientation_type": "UR RTDE getActualTCPPose rotation vector rx-ry-rz"
+    }
+  },
+  "camera": {
+    "type": "realsense",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "preview_window": "grasp pepper front"
+  },
+  "robot": {
+    "type": "rtde",
+    "rtde_host": "192.168.1.88",
+    "rtde_port": 30004
+  },
+  "sample_defaults": {
+    "language_instruction": "move the gripper to the pepper",
+    "object_type": "pepper",
+    "arm_model": "UR7e",
+    "tcp_set": [0.0, 0.0, 0.187]
+  }
+}

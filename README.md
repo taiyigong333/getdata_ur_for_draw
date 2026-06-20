@@ -57,7 +57,7 @@ pip install -e .
 实机采集：
 
 ```bash
-python -m grasp_dataset_collector --config configs/default.json
+python -m grasp_dataset_collector --config configs/pepper.json
 ```
 
 无硬件验证流程：

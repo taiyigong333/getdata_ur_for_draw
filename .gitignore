@@ -9,6 +9,7 @@ env/
 
 # 采集到的数据通常体积较大，默认不纳入代码仓库。
 grasp_success_dataset/
+grasp_dataset/ 
 
 # 本地运行产物
 *.log
